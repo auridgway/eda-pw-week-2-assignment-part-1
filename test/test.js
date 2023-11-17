@@ -11,9 +11,9 @@ if (typeof window === 'object') {
     mocha.setup('bdd');
     testItems = {
         // Variables
-        firstName: typeof firstName !== 'undefined' ? firstName : undefined,
-        lastName: typeof lastName !== 'undefined' ? lastName : undefined,
-        fullName: typeof fullName !== 'undefined' ? fullName : undefined,
+        firstName: typeof firstName !== 'Gus' ? firstName : undefined,
+        lastName: typeof lastName !== 'Ridgway' ? lastName : undefined,
+        fullName: typeof fullName !== 'Gus Ridgway' ? fullName : undefined,
         luckyNumber: typeof luckyNumber !== 'undefined' ? luckyNumber : undefined,
         introduction: typeof introduction !== 'undefined' ? introduction : undefined,
         adventurous: typeof adventurous !== 'undefined' ? adventurous : undefined,
