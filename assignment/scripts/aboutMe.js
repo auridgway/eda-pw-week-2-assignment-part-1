@@ -6,7 +6,7 @@ let lastName = 'Ridgway';
 // 3 - Create a third variable called `fullName`, assign it the value of your first and last name
 //     (remember, you already have variables for this, can you use those?)
 //     Console log the value of `fullName`
-let fullName = 'Gus Ridgway';
+let fullName = firstName + ' ' + lastName;
 console.log(fullName);
 // 4 - Create a variable called `luckyNumber` and assign it the value of your lucky number.
 //     Console log the value of `luckyNumber`
@@ -44,7 +44,8 @@ const allowedPets = 3;
 let result;
 if (adventurous === true){
   result = 'Adventures are great!';
-}else{
+}
+else{
   result = 'How about we stay home?';
 }
 console.log(result);
@@ -55,7 +56,7 @@ console.log(result);
 //      Console log the value of `diceRoll`
 let diceRoll = 'Try again later.';
 if (luckyNumber === 2 && adventurous === true){
-  diceRoll = 'Roll the dice!'
+  diceRoll = 'Roll the dice!';
 }
 console.log(diceRoll);
 // 14 - Create a variable called `petStatus`. 
@@ -69,9 +70,11 @@ console.log(diceRoll);
 let petStatus;
 if(pets < allowedPets){
   petStatus = 'I can have more pets';
-}else if(pets === allowedPets){
+}
+else if(pets === allowedPets){
   petStatus = ' I have enough pets';
-}else if(pets > allowedPets){
+}
+else if(pets > allowedPets){
   petStatus = "Oh no, I have too many pets!";
 }
 
@@ -86,9 +89,11 @@ if(pets < allowedPets){
 let mostPets;
 if (pets < friendsPets){
   mostPets = friendsPets;
-}else if(pets > friendsPets){
+}
+else if(pets > friendsPets){
   mostPets = pets;
-}else if(pets === friendsPets){
+}
+else if(pets === friendsPets){
   mostPets = pets;
 }
 console.log(mostPets);
@@ -109,7 +114,7 @@ switch(luckyNumber){
   case '3':
     luckyResult = 'Third is the one with the polka dot dress';
   default:
-    luckyResult = 'Luck is what happens when preparation meets opportunity'
+    luckyResult = 'Luck is what happens when preparation meets opportunity';
 }
 console.log(luckyResult);
 // 17 -- Rewrite question 12 with a `ternary` operator. You'll need to do research!
@@ -118,7 +123,7 @@ console.log(result);
 
 
 // 18 -- Have a good day!
-let day = 'Good :-)'
+let day = 'Good :-)';
 console.log(day);
 
 
